@@ -7,8 +7,8 @@ cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
 
-myColors = [[90,48,0,118,255,255]]
-myColorValues = [[255,0,0]] #BGR
+myColors = [[90,48,0,118,255,255]] #add the min max HSV values from colorPicker
+myColorValues = [[255,0,0]] #Add the colour in BGR format
 
 myPoints =  []  ## [x , y , colorId ]
 
