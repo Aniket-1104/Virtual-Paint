@@ -10,7 +10,7 @@ cap.set(10,150)
 myColors = [[90,48,0,118,255,255]] #add the min max HSV values from colorPicker
 myColorValues = [[255,0,0]] #Add the colour in BGR format
 
-myPoints =  []  ## [x , y , colorId ]
+myPoints =  []  # [x , y , colorId ]
 
 def findColor(img,myColors,myColorValues):
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
