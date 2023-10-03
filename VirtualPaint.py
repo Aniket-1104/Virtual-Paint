@@ -56,6 +56,6 @@ while True:
         drawOnCanvas(myPoints,myColorValues)
 
 
-    cv2.imshow("Result", imgResult)
+    cv2.imshow("Result", imgResult) #The result window
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
